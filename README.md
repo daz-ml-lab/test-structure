@@ -29,7 +29,7 @@ Welcome to the **Project** repository! This guide explains how to set up your en
    - The project uses a Conda environment defined by `environment.yml`. Each user sets up their environment once to ensure consistent Python/package versions.
 
 4. **Promotion to Shared Library**  
-   - If your sandbox work is worth sharing more broadly, we do a manual “promotion” to `src/` or to a notebook in `notebooks/`. This ensures only stable or validated code enters the shared library.
+   - If your sandbox work is worth sharing more broadly, we do a manual “promotion” to `library/` or to a notebook in `workflows/`. This ensures only stable or validated code enters the shared library.
 
 ---
 
