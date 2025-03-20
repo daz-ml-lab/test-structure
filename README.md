@@ -202,7 +202,7 @@ This can be helpful if you need to share something right away, rather than waiti
 2. **Conda Environment Issues**  
    - If the environment fails to create, you might try an update:
      ```bash
-     conda env update -f environment.yml -n my_project_<hostname>
+     conda env update -f environment.yml -n <project_name>_env
      ```
    - Make sure you’re on a recent version of conda or try `mamba` if standard conda is slow.
 
