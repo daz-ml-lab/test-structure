@@ -75,7 +75,7 @@ my_project/
 
 Follow these steps **once** when you first get access to the project:
 
-1. **Clone the Repository**  
+1. **Clone the Repository** (optional if already cloned) 
    - Choose a location on your machine where you want the project code, then:
      ```bash
      git clone https://github.com/yourorg/my_project.git
@@ -99,7 +99,7 @@ Follow these steps **once** when you first get access to the project:
 3. **Activate Conda Environment**  
    - After the environment is created, you can:
      ```bash
-     conda activate my_project_<hostname>
+     conda activate <project_name>_env
      ```
    - This ensures you’re using the correct versions of Python and libraries.
 
@@ -116,7 +116,7 @@ Follow these steps **once** when you first get access to the project:
      ```
 
 2. **Importing Shared Code**  
-   - If you want to use the common library code from `src/`, add something like:
+   - If you want to use the common library code from `library/`, add something like:
      ```python
      import sys, os
      
@@ -125,10 +125,10 @@ Follow these steps **once** when you first get access to the project:
      
      from src.processing import clean_data
      ```
-     This approach modifies your Python path so the `src/` folder is recognized.
+     This approach modifies your Python path so the `library/` folder is recognized.
 
 3. **Environment Consistency**  
-   - Always remember to `conda activate my_project_<hostname>` (or whatever the environment name is) before running your code.
+   - Always remember to `conda activate <project_name>_env` (or whatever the environment name is) before running your code.
 
 ---
 
