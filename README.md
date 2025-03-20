@@ -1,7 +1,3 @@
-Below is a **final** example of a **README.md** document you can place at the root of your repository. It explains the entire workflow—from initial setup through daily usage—and is intended both for new team members getting started and for existing users who need a refresher.
-
----
-
 # Project Workflow & Onboarding Guide
 
 Welcome to the **Project** repository! This guide explains how to set up your environment, how to work in your personal sandbox using your machine’s hostname, and how code is eventually promoted to the shared library (`src/`) and official notebooks (`notebooks/`). Automated commits ensure your sandbox work is backed up hourly, but you can still manually commit and push anytime.
