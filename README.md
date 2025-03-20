@@ -42,10 +42,10 @@ my_project/
 ├─ README.md               # This guide
 ├─ environment.yml         # Conda environment definition
 ├─ setup_and_cron.sh       # Script to set up your sandbox & auto-commit cron job
-├─ src/                    # Shared library code
+├─ library/                    # Shared library code
 │   ├─ data_loading.py
 │   └─ processing.py
-├─ notebooks/              # "Official" or final notebooks
+├─ workflows/              # "Official" or final notebooks
 │   └─ final_use_cases.ipynb
 ├─ sandbox/                # Everyone’s personal subfolders for experiments
 │   ├─ alice-machine/
@@ -55,8 +55,8 @@ my_project/
     └─ test_processing.py
 ```
 
-- **`src/`**: Python modules/functions used by multiple notebooks.  
-- **`notebooks/`**: Final or reference notebooks for proven workflows.  
+- **`library/`**: Python modules/functions used by multiple notebooks.  
+- **`workflows/`**: Final or reference notebooks for proven workflows.  
 - **`sandbox/`**: Each user’s personal space (named after the machine’s hostname).  
 - **`environment.yml`**: Used to create/update a Conda environment consistently across all machines.
 
@@ -169,7 +169,7 @@ This can be helpful if you need to share something right away, rather than waiti
 
 ---
 
-## Promoting Code to `src/` and `notebooks/`
+## Promoting Code to `library/` and `workflows/`
 
 1. **Identify Useful Code**  
    - If you’ve developed something in your sandbox that would benefit the whole team (e.g., a new data-cleaning function), the team decides whether to promote it.
@@ -181,7 +181,7 @@ This can be helpful if you need to share something right away, rather than waiti
 3. **Manual Commit & Push**  
    - Because these changes affect shared code, do a normal:
      ```bash
-     git add src/ notebooks/
+     git add library/ workflows/
      git commit -m "Add new library function and official notebook"
      git push
      ```
