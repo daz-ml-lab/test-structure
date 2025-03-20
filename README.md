@@ -10,7 +10,7 @@ Welcome to the **Project** repository! This guide explains how to set up your en
 5. [Working in Your Sandbox](#working-in-your-sandbox)
 6. [Automated Commits (Hourly)](#automated-commits-hourly)
 7. [Manual Commits](#manual-commits)
-8. [Promoting Code to `src/` and `notebooks/`](#promoting-code-to-src-and-notebooks)
+8. [Promoting Code to `library/` and `workflows/`](#promoting-code-to-library-and-workflows)
 9. [Troubleshooting & Tips](#troubleshooting--tips)
 10. [Further Reading](#further-reading)
 
