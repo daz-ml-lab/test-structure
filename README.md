@@ -1,6 +1,6 @@
 # Project Workflow & Onboarding Guide
 
-Welcome to the **Project** repository! This guide explains how to set up your environment, how to work in your personal sandbox using your machine’s hostname, and how code is eventually promoted to the shared library (`src/`) and official notebooks (`notebooks/`). Automated commits ensure your sandbox work is backed up hourly, but you can still manually commit and push anytime.
+Welcome to the **Project** repository! This guide explains how to set up your environment, how to work in your personal sandbox using your machine’s hostname, and how code is eventually promoted to the shared library (`library/`) and official notebooks (`workflows/`). Automated commits ensure your sandbox work is backed up hourly, but you can still manually commit and push anytime.
 
 ## Table of Contents
 1. [Overview](#overview)
