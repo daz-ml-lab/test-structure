@@ -123,7 +123,7 @@ Follow these steps **once** when you first get access to the project:
      PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath('__file__')))
      sys.path.append(PROJECT_ROOT)
      
-     from src.processing import clean_data
+     from library.processing import clean_data
      ```
      This approach modifies your Python path so the `library/` folder is recognized.
 
