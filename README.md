@@ -175,8 +175,8 @@ This can be helpful if you need to share something right away, rather than waiti
    - If you’ve developed something in your sandbox that would benefit the whole team (e.g., a new data-cleaning function), the team decides whether to promote it.
 
 2. **Move or Copy**  
-   - **Refactor** the relevant code from your sandbox into a Python module in `src/`.
-   - If it’s a **finished workflow** or official example, copy your final notebook from `sandbox/<hostname>/` to `notebooks/`.
+   - **Refactor** the relevant code from your sandbox into a Python module in `library/`.
+   - If it’s a **finished workflow** or official example, copy your final notebook from `sandbox/<hostname>/` to `workflows/`.
 
 3. **Manual Commit & Push**  
    - Because these changes affect shared code, do a normal:
