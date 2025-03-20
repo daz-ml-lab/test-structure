@@ -42,7 +42,7 @@ my_project/
 ├─ README.md               # This guide
 ├─ environment.yml         # Conda environment definition
 ├─ setup_and_cron.sh       # Script to set up your sandbox & auto-commit cron job
-├─ library/                    # Shared library code
+├─ library/                # Shared library code
 │   ├─ data_loading.py
 │   └─ processing.py
 ├─ workflows/              # "Official" or final notebooks
