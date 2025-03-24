@@ -33,7 +33,7 @@ Welcome to the **Project** repository! This guide explains how to set up your en
 
 ---
 
-## Repository Structure
+## Repository Structure (example)
 
 A simplified view:
 
